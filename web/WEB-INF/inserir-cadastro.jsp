@@ -29,7 +29,9 @@
            
             <input type="submit"/>
             <input type="reset"/>
+            
         </form>
+        <center><div><a href="index.html">Voltar a Página Inicial </a></div></center>
     
         
     </body>

@@ -38,7 +38,7 @@ public class Comunidade extends HttpServlet {
             String categoria = request.getParameter("categoria");
             Participante novoParticipante = new Participante(nome, endereco, bairro, email,celular,dataInicio,dataFim, categoria);
             ListaParticipantes.inicializarLista().add(novoParticipante);
-            response.sendRedirect("index.html");
+            response.sendRedirect("mensagem.html");
     }
  
 }
